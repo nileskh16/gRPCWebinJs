@@ -1,24 +1,10 @@
 server/
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
-envoy-client/node_modules
-envoy-client/.pnp
-envoy-client/.pnp.js
+**/node_modules
+**/.pnp
+**/.pnp.js
 
 # testing
-envoy-client/coverage
+**/coverage
 
 # production
-envoy-client/build
-
-# misc
-envoy-client/.DS_Store
-envoy-client/.env.local
-envoy-client/.env.development.local
-envoy-client/.env.test.local
-envoy-client/.env.production.local
-
-envoy-client/npm-debug.log*
-envoy-client/yarn-debug.log*
-envoy-client/yarn-error.log*
+**/build
